@@ -40,6 +40,7 @@ public class ServiceController {
 			throw new SecurityException("Not your service");
 
 		model.put("externId", externId);
+		model.put("serviceName", service.getName());
 		model.put("bills", service.getBills());
 		return "show-bills-by-service";
 	}

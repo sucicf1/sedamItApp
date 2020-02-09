@@ -5,7 +5,8 @@
 		<a type="button" class="btn btn-primary btn-md"
 			href="/bill/add/${externId}">Add bill</a>
 	</div><br />
-	Extern id of service of all bills is ${externId}
+	Extern id of service of all bills is ${externId} <br />
+	Service name: ${serviceName}
 	<div class="panel-body">
 		<table class="table table-striped" style="width:90%">
 			<thead>
