@@ -11,7 +11,7 @@
 					href="/user/update">Update profile</a>
 				</td>
 				<td width="20%"><a href="/service">View services</a></td>
-				<td width="20%"><a
+				<td width="60%"><a style="float:right"
 					onclick="document.forms['logoutForm'].submit()">Logout</a></td>
 			</tr>
 		</table>
