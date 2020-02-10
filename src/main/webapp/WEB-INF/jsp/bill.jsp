@@ -8,6 +8,7 @@
 		<form:hidden path="id" />
 		<spring:bind path="month">
 			<div class="form-group ${status.error ? 'has-error' : ''}">
+				month: <br />
 				<form:input type="number" path="month" class="form-control"
 					placeholder="month" autofocus="true"></form:input>
 				<form:errors path="month"></form:errors>
@@ -16,6 +17,7 @@
 
 		<spring:bind path="amount">
 			<div class="form-group ${status.error ? 'has-error' : ''}">
+				amount: <br />
 				<form:input type="number" path="amount" class="form-control"
 					placeholder="amount"></form:input>
 				<form:errors path="amount"></form:errors>
